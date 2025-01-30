@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function Strawberry(){
     return(
         <div className="parentContainerx">
             
-            <div className="imageContainerx "><img src="strawberry.jpg" alt="strawberry" /></div>
+            <div className="imageContainerx "><Image src="strawberry.jpg" alt="strawberry" /></div>
             <div className="childContainerx bounce-in-right">
             <h1>STRAWBERRY</h1>
             <p>

@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function Brinjal(){
     return(
         <div className="parentContainerx">
             
-            <div className="imageContainerx "><img src="CAPSICUM.jpg" alt="capsicum" /></div>
+            <div className="imageContainerx "><Image src="CAPSICUM.jpg" alt="capsicum" /></div>
             <div className="childContainerx bounce-in-right">
             <h1>Capsicum</h1>
             <p>

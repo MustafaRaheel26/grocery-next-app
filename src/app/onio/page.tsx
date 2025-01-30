@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function Onion(){
     return(
         <div className="parentContainerx">
             
-            <div className="imageContainerx "><img src="ONION.jpg" alt="onion" /></div>
+            <div className="imageContainerx "><Image src="ONION.jpg" alt="onion" /></div>
             <div className="childContainerx bounce-in-right">
             <h1>ONIONS</h1>
             <p>

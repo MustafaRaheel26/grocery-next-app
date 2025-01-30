@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function Pineapple(){
     return(
         <div className="parentContainerx">
             
-            <div className="imageContainerx "><img src="pineapple.jpg" alt="pineapple" /></div>
+            <div className="imageContainerx "><Image src="pineapple.jpg" alt="pineapple" /></div>
             <div className="childContainerx bounce-in-right">
             <h1>PINEAPPLES</h1>
             <p>

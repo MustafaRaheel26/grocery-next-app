@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function Cucumber(){
     return(
         <div className="parentContainerx">
             
-            <div className="imageContainerx "><img src="CUCUMBER.jpg" alt="CUCUMBER" /></div>
+            <div className="imageContainerx "><Image src="CUCUMBER.jpg" alt="CUCUMBER" /></div>
             <div className="childContainerx bounce-in-right">
             <h1>CUCUMBER</h1>
             <p>

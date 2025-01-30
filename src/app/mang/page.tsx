@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function Mangoes(){
     return(
         <div className="parentContainerx">
             
-            <div className="imageContainerx "><img src="mango.jpg" alt="tmango" /></div>
+            <div className="imageContainerx "><Image src="mango.jpg" alt="tmango" /></div>
             <div className="childContainerx bounce-in-right">
             <h1>MANGOES</h1>
             <p>

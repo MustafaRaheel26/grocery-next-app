@@ -1,8 +1,10 @@
+
+import Image from "next/image";
 export default function Pomegranate(){
     return(
         <div className="parentContainerx">
             
-            <div className="imageContainerx "><img src="pomegranate.jpg" alt="pomegranate" /></div>
+            <div className="imageContainerx "><Image src="pomegranate.jpg" alt="pomegranate" /></div>
             <div className="childContainerx bounce-in-right">
             <h1>POMEGRANATE</h1>
             <p>

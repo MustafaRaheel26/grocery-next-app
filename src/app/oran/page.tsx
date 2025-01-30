@@ -1,8 +1,10 @@
+
+import Image from "next/image";
 export default function Orange(){
     return(
         <div className="parentContainerx">
             
-            <div className="imageContainerx "><img src="orange.jpg" alt="orange" /></div>
+            <div className="imageContainerx "><Image src="orange.jpg" alt="orange" /></div>
             <div className="childContainerx bounce-in-right">
             <h1>ORANGE</h1>
             <p>

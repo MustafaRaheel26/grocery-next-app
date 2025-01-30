@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function CauliFlower(){
     return(
         <div className="parentContainerx">
             
-            <div className="imageContainerx "><img src="CAULIFLOWER.jpg" alt="cauliflower" /></div>
+            <div className="imageContainerx "><Image src="CAULIFLOWER.jpg" alt="cauliflower" /></div>
             <div className="childContainerx bounce-in-right">
             <h1>CAULIFLOWER</h1>
             <p>
